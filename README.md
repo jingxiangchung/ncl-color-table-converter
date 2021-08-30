@@ -1,4 +1,4 @@
-# ncl-colour-table-converter
+# ncl-color-table-converter
 This repo hosts 3 different scripts which could be used to convert the premade colour table from NCL to the format usable in 
 1. Grid Analysis and Display System (GrADS) - use "ncl2grads.sh"
 2. Matlab - use "ncl2grads.m", it was named "ncl2grads.m" because the script was originally written for those who use Matlab to convert the ncl colour tables for use in GrADS. 
