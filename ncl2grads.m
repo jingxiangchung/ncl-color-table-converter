@@ -112,8 +112,7 @@
     %Convert to MATLAB format
     for i = 1:size(val_array,1);
         for j = 1:size(val_array,2)
-            rgb_num(i,j)=str2double(val_array{i,j})/255;
-		end
+	end
     end
     
     varargout(1) = {rgb_num};
