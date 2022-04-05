@@ -92,7 +92,7 @@
         end   
         
         rgb_col(colnum,:) = rgb_val;
-
+        
     end
     
     try
@@ -113,7 +113,7 @@
     for i = 1:size(val_array,1);
         for j = 1:size(val_array,2)
             rgb_num(i,j)=str2double(val_array{i,j})/255;
-	end
+		end
     end
     
     varargout(1) = {rgb_num};
