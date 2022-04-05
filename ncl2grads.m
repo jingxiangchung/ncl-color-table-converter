@@ -88,7 +88,7 @@
         
         for valnum = 1:3
             val = str2double(col_tmp{1}{valnum});            
-            rgb_val(:,valnum) = val;      
+            rgb_val(:,valnum) = val;
         end   
         
         rgb_col(colnum,:) = rgb_val;
